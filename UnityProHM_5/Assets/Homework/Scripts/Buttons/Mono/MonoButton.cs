@@ -12,6 +12,7 @@ namespace Homework
         {
 
             this.manager = system.GetService<IPopupManager>();
+            Debug.Log("Test");
         }
 
         public virtual void Do()
